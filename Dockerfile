@@ -1,5 +1,5 @@
 #FROM tomcat:9-jre11-slim
-FROM tomcat:8
+FROM tomcat:8.0.20-jre8
 MAINTAINER devakumaran@gmail.com
 #WORKDIR /usr/src/app
 RUN rm -rf /usr/local/tomcat/webapps/*
