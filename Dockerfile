@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:9-jre11-slim
 MAINTAINER devakumaran@gmail.com
 #WORKDIR /usr/src/app
 RUN rm -rf /usr/local/tomcat/webapps/*
